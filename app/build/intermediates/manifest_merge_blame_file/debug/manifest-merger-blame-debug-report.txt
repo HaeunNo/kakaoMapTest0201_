@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kakaomaptest0201"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:8:5-85
+14-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:8:22-82
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <application
+29-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:10:5-32:19
+30        android:allowBackup="true"
+30-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:11:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\haneh\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:12:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:13:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:14:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:15:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:16:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.KakaoMapTest0201"
+39-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:17:9-54
+40        android:usesCleartextTraffic="true" >
+40-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:18:9-44
+41        <activity
+41-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:19:9-27:20
+42            android:name="com.example.kakaomaptest0201.MainActivity"
+42-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:20:13-41
+43            android:exported="true" >
+43-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:21:13-36
+44            <intent-filter>
+44-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:22:13-26:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:23:17-69
+45-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:25:17-77
+47-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:25:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:29:9-31:64
+52            android:name="com.kakao.sdk.AppKey"
+52-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:30:13-48
+53            android:value="906d95fe7487dbb6aed552c4b2449b2b" />
+53-->C:\Users\haneh\AndroidStudioProjects\kakaoMapTest0201\app\src\main\AndroidManifest.xml:31:13-61
+54        <!-- Needs to be explicitly declared on P+ -->
+55        <uses-library
+55-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+56            android:name="org.apache.http.legacy"
+56-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+57            android:required="false" />
+57-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\haneh\.gradle\caches\transforms-3\643dd6900a57ebbcc5ebb8ed583c308f\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\haneh\.gradle\caches\transforms-3\4e81f3c3b062888fece961428284f9c6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\haneh\.gradle\caches\transforms-3\4e81f3c3b062888fece961428284f9c6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\haneh\.gradle\caches\transforms-3\4e81f3c3b062888fece961428284f9c6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\haneh\.gradle\caches\transforms-3\4e81f3c3b062888fece961428284f9c6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\haneh\.gradle\caches\transforms-3\07f38d52944a8d00e22f7921b9ffd0af\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\haneh\.gradle\caches\transforms-3\07f38d52944a8d00e22f7921b9ffd0af\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\haneh\.gradle\caches\transforms-3\07f38d52944a8d00e22f7921b9ffd0af\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+70            android:authorities="com.example.kakaomaptest0201.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haneh\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haneh\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haneh\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haneh\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>

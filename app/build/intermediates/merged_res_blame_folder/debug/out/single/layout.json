@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_callout_balloon.xml",
+        "source": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\src\\main\\res\\layout\\custom_callout_balloon.xml"
+    },
+    {
+        "merged": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main3.xml",
+        "source": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\src\\main\\res\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\haneh\\AndroidStudioProjects\\kakaoMapTest0201\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    }
+]
